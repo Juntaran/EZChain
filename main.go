@@ -33,7 +33,7 @@ func handleConn(conn net.Conn)  {
 	// 模拟接收广播
 	go func() {
 		for {
-			// 每 10 秒接收一次
+			// 每 30 秒接收一次
 			time.Sleep(time.Second * 30)
 			g.Mutex.Lock()
 			output, err := json.Marshal(blockchain.BC.Blockchain)
