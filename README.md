@@ -1,0 +1,2 @@
+# EZChain
+A Simple Blockchain
